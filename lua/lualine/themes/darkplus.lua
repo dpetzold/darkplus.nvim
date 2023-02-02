@@ -20,10 +20,10 @@ return {
 		b = { fg = colors.blue, bg = colors.bg },
 		c = { fg = colors.fg, bg = colors.bg },
 	},
-	insert = { a = { fg = colors.bg, bg = colors.green }, b = { fg = colors.green, bg = colors.gray } },
-	visual = { a = { fg = colors.bg, bg = colors.purple }, b = { fg = colors.purple, bg = colors.gray } },
-	command = { a = { fg = colors.bg, bg = colors.orange }, b = { fg = colors.orange, bg = colors.gray } },
-	replace = { a = { fg = colors.bg, bg = colors.red }, b = { fg = colors.red, bg = colors.gray } },
+	insert = { a = { fg = colors.bg, bg = colors.green }, b = { fg = colors.green, bg = colors.bg } },
+	visual = { a = { fg = colors.bg, bg = colors.purple }, b = { fg = colors.purple, bg = colors.bg } },
+	command = { a = { fg = colors.bg, bg = colors.orange }, b = { fg = colors.orange, bg = colors.bg } },
+	replace = { a = { fg = colors.bg, bg = colors.red }, b = { fg = colors.red, bg = colors.bg } },
 
 	inactive = {
 		a = { bg = colors.bg, fg = colors.blue },
